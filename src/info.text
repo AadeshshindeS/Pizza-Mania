@@ -1,0 +1,8 @@
+id : https://ecom-rest-apis.herokuapp.com/api/products/}
+product: https://ecom-rest-apis.herokuapp.com/api/products/
+
+idfetch : https://ecom-rest-apis.herokuapp.com/api/products/cart-items
+
+btn color : #f59e0d
+
+  // {image, name, size , price , _id}

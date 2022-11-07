@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 90%;
+  margin: 0px auto;
+  margin-top: 20px;
+  padding: 30px;
+}
+
+.text {
+  text-align: center;
+  justify-content: center;
+}
+
+.text h5 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+.span {
+  color: #f59e0d;
+}
+
+.text h1 {
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+
+.text button {
+  padding: 16px 20px;
+  background-color: #f59e0d;
+  border: none;
+  border-radius: 31px;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.logo img {
+  animation: rotation 15s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

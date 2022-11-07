@@ -1,0 +1,58 @@
+.singlepizza-main {
+  height: 45vh;
+  width: 55%;
+  margin: 0px auto;
+  margin-top: 50px;
+  display: flex;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.backbutton button {
+  padding: 7px 25px;
+  background-color: white;
+  color: black;
+  border: 5px solid #f59e0d;
+  border-radius: 15px;
+  font-size: 28px;
+  margin: 50px 0 0 60px;
+  cursor: pointer;
+}
+
+.singlepizza-image img {
+  height: 100%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.singlepizza-info {
+  /* background-color: red; */
+  text-align: center;
+  padding: 0 0 0 20px;
+}
+
+.singlepizza-info h1 {
+  font-family: "Times New Roman", Times, serif;
+  padding: 60px 50px 30px 50px;
+  font-size: 40px;
+}
+
+.singlepizza-price {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0px;
+  margin-top: 40px;
+}
+
+.singlepizza-price button {
+  padding: 12px 30px;
+  border: none;
+  background-color: #f59e0d;
+  color: white;
+  border-radius: 19px;
+  cursor: pointer;
+}
+
+.singlepizza-price p {
+  font-size: 20px;
+}

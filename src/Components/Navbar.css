@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  /* color: black; */
+  color: black;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+.main {
+  /* background-color: aqua; */
+  display: flex;
+  width: 90%;
+  margin: 0px auto;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+img {
+  cursor: pointer;
+}
+
+.main-right ul {
+  display: flex;
+  list-style: none;
+  margin-right: -40px;
+  font-size: 20px;
+}
+
+.main-right li {
+  margin-right: 40px;
+}
+
+.trolly-number {
+  margin-right: 10px;
+  font-size: 25px;
+}
+
+.trolly {
+  color: white;
+  display: flex;
+  padding: 0px 10px;
+  border-radius: 16px;
+  background-color: #f59e0d;
+  cursor: pointer;
+  height: 70%;
+}
+
+.logoutButton {
+  border-radius: 14px;
+  color: white;
+  display: flex;
+  padding: 3px 10px;
+  border-radius: 16px;
+  background-color: #f59e0d;
+  cursor: pointer;
+  height: 75%;
+  border: none;
+}
